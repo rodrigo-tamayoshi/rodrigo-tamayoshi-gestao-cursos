@@ -1,0 +1,18 @@
+spring:
+  datasource:
+    url: url_banco
+    username: seu_username
+    password: sua_senha
+  jpa:
+    hibernate:
+      ddl-auto: update
+    open-in-view: false
+    properties:
+      hibernate:
+        format_sql: true
+  sql:
+    init:
+      mode: never
+
+server:
+  port: porta
